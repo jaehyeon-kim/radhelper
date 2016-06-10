@@ -29,4 +29,10 @@ The easiest way to install this package would be from [Unofficial Windows Binari
 $ pip install python_ldap-2.4.25-cp27-none-win_amd64.whl
 ```
 
+### Usage
+
+```r
+library(radhelper)
+adauth(address = "sydgdc05.ap.corp.ipgnetwork.com", user_email = "first.last@anom.dev.com", password = "password")
+```
 
